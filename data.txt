@@ -1,0 +1,21 @@
+Student: {
+	Restaurant: [
+		{
+			FoodType:
+			Vibe:
+			Recommendations: [
+				{
+					Name:
+					Description:
+				},
+			]
+			Image: 
+			Locations: [
+				{
+					Address:
+					WouldRecommend:
+				},
+			],
+		},
+	]
+}
