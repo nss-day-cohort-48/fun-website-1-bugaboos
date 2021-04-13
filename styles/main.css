@@ -1,9 +1,13 @@
+body {
+    font-family: 'Roboto';
+}
+
 .navBar {
     display: flex;
     justify-content: space-around;
     margin: 20px 0px;
     padding: 20px;
-    background-color: lavenderblush;
+    background-color: rgb(240, 207, 218);
 }
 
 a{
@@ -11,10 +15,53 @@ a{
     font-weight: bold; 
 }
 
+a:hover{
+    text-decoration: none;
+    font-weight: bold; 
+    color: rgb(198, 22, 22);
+}
+
 a:link, :visited{
     color: #3445C2;
 }
 
 .current-page{
-    border-bottom: dashed #3445C2 2px;
+    border-bottom: solid blue 2px;
+}
+
+.studentContainer {
+    border: 1px solid black;
+    border-radius: 2em;
+    padding: 5em;
+    max-width: 8em;
+}
+
+.studentContainer:hover {
+    border: 1px solid rgb(145, 0, 0);
+    background-color: rgb(255, 255, 255)
+}
+
+.students {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.studentsHeader {
+    padding: 20px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.mainHeader {
+   text-align: center;
+}
+
+.headerBackground {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(215, 215, 215);
 }
