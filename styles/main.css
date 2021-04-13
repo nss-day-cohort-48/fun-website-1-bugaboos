@@ -1,3 +1,5 @@
+@import './restaurants.css';
+
 body {
     font-family: 'Roboto';
 }
@@ -65,3 +67,4 @@ a:link, :visited{
 body {
     background-color: rgb(215, 215, 215);
 }
+
