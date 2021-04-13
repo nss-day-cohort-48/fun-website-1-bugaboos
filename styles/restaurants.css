@@ -1,0 +1,23 @@
+.restaurantContainer {
+	padding: 2.5rem;
+}
+
+.restaurantInfoContainer {
+	display: flex;
+	flex-flow: row wrap; 
+}
+
+.restaurantInfo {
+	flex: 3;
+	flex-basis: 50%;
+}
+
+.restaurantImage {
+	min-width: 20rem;
+	flex: 2;
+}
+
+.locationsList {
+	display: flex;
+	flex-flow: row wrap;
+}

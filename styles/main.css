@@ -1,3 +1,5 @@
+@import './restaurants.css';
+
 .navBar {
     display: flex;
     justify-content: space-around;
