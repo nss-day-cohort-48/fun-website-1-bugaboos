@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto';
+}
+
 .navBar {
     display: flex;
     justify-content: space-around;
@@ -30,7 +34,6 @@ a:link, :visited{
     border-radius: 2em;
     padding: 5em;
     max-width: 8em;
-    margin: auto;
 }
 
 .studentContainer:hover {
